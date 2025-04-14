@@ -10,11 +10,9 @@ body {
 }
 /* Contenedor de la cabecera */
 /* CABECERA: Asegura que la cabecera tenga el fondo completo */
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* centra los botones */
-    background-color: #e0d38f; /* beige completo */
+.header .navbar{
+ /* centra los botones */
+    background-color: #e0d38f !important; /* beige completo */
 }
 
 /* Estilo para cada botón de navegación */
@@ -31,6 +29,10 @@ body {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* sutil sombra */
 }
 
+.boton .navbar{
+    background-color: white; /* fondo blanco */
+    border: 3px solid gray; /* borde gris grueso */
+}
 
 /* Logo */
 .header .logo {
