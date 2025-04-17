@@ -12,79 +12,21 @@ body {
 /* CABECERA: Asegura que la cabecera tenga el fondo completo */
 .header .navbar{
  /* centra los botones */
-    background-color: #e0d38f !important; /* beige completo */
+    background-color: whitesmoke !important; /* beige completo */
 }
+
 
 /* Estilo para cada botón de navegación */
 .bloque {
     background-color: white; /* fondo blanco */
-    border: 3px solid gray; /* borde gris grueso */
+    border: 1px solid gray; /* borde gris grueso */
     padding: 10px 20px;
     margin: 10px;
     text-align: center;
     font-weight: bold;
     border-radius: 8px;
     color: #555; /* gris suave para el texto */
-    min-width: 160px; /* para dar un tamaño consistente */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* sutil sombra */
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.1); /* sutil sombra */
 }
 
-.boton .navbar{
-    background-color: white; /* fondo blanco */
-    border: 3px solid gray; /* borde gris grueso */
-}
 
-/* Logo */
-.header .logo {
-    font-size: 24px; /* Tamaño de fuente del logo */
-    color: #007bff; /* Color del texto del logo */
-}
-
-/* Navegación */
-.nav {
-    display: flex; /* Flexbox para los elementos de navegación */
-    gap: 20px; /* Espaciado entre los elementos */
-}
-
-.nav a {
-    text-decoration: none; /* Sin subrayado */
-    color: #343a40; /* Color de los enlaces */
-    font-weight: bold; /* Negrita para destacar */
-}
-
-/* Estilo de búsqueda */
-.search {
-    display: flex; /* Para organizar el campo de búsqueda y el botón */
-    margin-left: auto; /* Mueve el bloque a la derecha */
-}
-
-.search input {
-    padding: 10px; /* Espaciado interno del campo de búsqueda */
-    border: 1px solid #e0e0e0; /* Borde ligero */
-    border-radius: 5px; /* Bordes redondeados */
-}
-
-.search button {
-    padding: 10px 15px; /* Espaciado interno para el botón */
-    background-color: #ff9800; /* Color del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
-    margin-left: 10px; /* Espacio entre el campo y el botón */
-}
-
-.search button:hover {
-    background-color: #e68900; /* Cambio de color al pasar el mouse */
-}
-
-/* Estilo del carrito y opciones de cuenta */
-.account-options {
-    display: flex; /* Flex para los elementos de cuenta */
-    align-items: center; /* Centrar verticalmente */
-}
-
-.account-options a {
-    margin-left: 20px; /* Espaciado entre elementos */
-    color: #343a40; /* Color de los enlaces */
-}
