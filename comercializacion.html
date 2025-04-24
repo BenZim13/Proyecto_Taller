@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuperCarpi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/miestilo.css" rel="stylesheet">
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top bg-light"> <!-- Aquí agregamos bg-light para fondo blanco -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SuperCarpi</a>
+  
+      <!-- Barra de busqueda -->
+      <form class="d-flex ms-auto me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar Productos" aria-label="Buscar">
+        <button class="btn btn-outline-light" type="submit">
+          <img src="../assets/img/search.svg" alt="Buscar">
+        </button>
+      </form>
+  
+      <!-- Menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </button>
+  
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+          <button type="button" class="btn btn-outline" data-bs-dismiss="offcanvas" aria-label="Cerrar">
+            <img src="../assets/img/x-circle.svg" alt="Cerrar">
+          </button>
+        </div>
+  
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#comercializacion" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Comercialización
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Lácteos</a></li>
+                <li><a class="dropdown-item" href="#">Carnes</a></li>
+                <li><a class="dropdown-item" href="#">Panificados</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Pedidos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Información de Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#terminos">Términos y Usos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+ <section id ="Como_comprar"class = "container-fluid">
+    <div id ="titulo_como_comprar"   class="container-lg text-center">
+        <div id="titulo" class = "text-center">
+          <h2>¿Como realizo una compra?</h2>
+        </div>
+      </div>
+<div class = "container-fluid">
+    <div class = "row row-cols-1 row-cols-md-3 g-4">
+        <div class = " col-12 col-md-6 col-lg-4" >
+            <div class="card  h-100" style="width: 25rem;">
+                <img src="../assets/img/paso1.png" class="card-img-top w-70" alt="...">
+                <div class="card-body">
+                <h5 class = "card-title" style="color:#ff5722;">1. Busca el producto que necesites </h5>
+                  <p class ="card-text">
+                    <br>
+                    Para comenzar tu compra busca el producto que te interesa en nuestras categorias.
+                    Si buscas algo mas especifico, podes escribirlo en el buscador
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class = " col-12 col-md-6 col-lg-4" >
+            <div class="card h-100" style="width: 25rem;">
+                <img src="../assets/img/paso2.png" class="card-img-top w-70" alt="...">
+                <div class="card-body">
+                    <h5 class = "card-title" style="color:#ff5722;">2. Añadi el producto que desees al carrito</h5>
+                  <p class ="card-text">
+                    <br>
+                    Haz click en Añadir al carrito. Puedes seguir comprando o ingresar al carrito
+                    para revisar tu pedido
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class = " col-12 col-md-6 col-lg-4" >
+            <div class="card h-100" style="width: 25rem;">
+                <img src="../assets/img/paso3.png" class="card-img-top w-70" alt="...">
+                <div class="card-body">
+                    <h5 class = "card-title"style="color:#ff5722;">3.Compra tu carrito</h5>
+                    <p class ="card-text">
+                    <br>
+                    Verifica que los productos que añadste sean los deseados en cantidad y precio
+                    <br>
+                    <br>
+                  </p>
+                </div>
+              </div>
+        </div>
+        <!-- Bloque paso4-->
+        <div  class = " col-md-11" >
+            <div id ="paso4" class="card card-paso4 " style="border-color:#ff5722;">
+                <div class="card-body p-0">
+                    <div class = "row align-items-center">    
+                    <div class ="col-12 col-md-6">
+                    <p class="text-center">
+                    <h5 class = "card-title"style="color:#ff5722;">4.Pagos</h5> 
+                    <br>
+                    Para pagar tu carrito solo tenes que seguir unos simples pasos: 
+                  </p>
+                  </div>
+
+                <div class = "col-12 col-md-2">
+                    <img src="../assets/img/paso41.png" class="rounded w-50" alt="...">
+                      <p class = "text-center p_0">
+                        1.Elegir el metodo de pago
+                      </p>
+                </div>
+
+                <div class = "col-12 col-md-2">
+                    <img src="../assets/img/paso42.png" class="rounded w-50" alt="...">
+                     <p class = "text-center p_0">
+                       2.Elegir la forma de envio 
+                     </p>
+               </div>
+
+               <div class = "col-12 col-md-2">
+                <img src="../assets/img/paso43.png" class="rounded w-50" alt="...">
+                     <p class = "text-center p_0">
+                       3.Confirmar el pedido
+                     </p>
+               </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+  
+  <footer class="text-center py-4">
+    <p>&copy; 2025 Supermercado Virtual. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
