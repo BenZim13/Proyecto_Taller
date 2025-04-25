@@ -29,16 +29,21 @@ body {
     box-shadow: 2px 2px 1px rgba(0,0,0,0.1); /* sutil sombra */
 }
 
+/* Example customization for paragraph inside #comercializacion */
+
 .carousel-item img {
     width: 100%;
     height: auto; /* Adjust height to auto for responsiveness */
     object-fit: cover;
 }
 
+/* Remove flex styles that interfere with Bootstrap carousel */
 #carouselExampleIndicators {
     display: block !important;
     flex-wrap: wrap !important;
+    padding-bottom: 20px;
 }
+
 #promos .text-left {
     font-family: Arial, sans-serif;
     color: gray;
@@ -75,6 +80,23 @@ body {
     font-family: Arial, sans-serif;
     font-weight:normal;
     margin-top:30px;
+    margin-bottom: 20px;
+}
+
+/* Style div#titulo with rounded orange border and padding */
+#titulo {
+    border: 2px solid #ff5722;
+    border-radius: 50px 0px;
+    padding: 15px 20px;
+    background-color: #ff5722;
+    margin-bottom: 20px;
+}
+
+/* Style h2 inside div#titulo with white bold text */
+#titulo h2 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
 }
 
 .card-body{
@@ -92,4 +114,15 @@ body {
 
 .paso4{
    margin:20px;
+}
+
+#mp .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+#mp .card-title{
+    text-align: center;
 }
