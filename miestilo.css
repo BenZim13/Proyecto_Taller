@@ -126,3 +126,66 @@ body {
 #mp .card-title{
     text-align: center;
 }
+#titulo h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+#subtitulo h2{
+    color:#ff5722;
+}
+
+#subtitulo p{
+    text-align: justify;
+    color: rgb(61, 60, 60);
+    font-weight:normal;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+#contacto .card-header {
+    background-color:#ff5722; 
+    color: #ffffff; 
+    border-radius: 50px 0px;
+}
+#contacto .btn-primary{
+    background-color: #ff5722; /* Custom orange background */
+    border-color: #ff5722;
+    color: white;
+    display: block;
+    margin: 0 auto; /* Center align the button */
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #bb3309; /* Darker orange on hover */
+    border-color: #be3106;
+    color: white;
+}
+
+#medios_de_contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    }
+    
+    #medios_de_contacto .card {
+    text-align: center;
+    flex: 0 1 300px; 
+    }
+    
+    #medios_de_contacto .card img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100%;
+    height: auto;
+    }
