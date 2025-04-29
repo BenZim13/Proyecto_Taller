@@ -29,4 +29,52 @@ body {
     box-shadow: 2px 2px 1px rgba(0,0,0,0.1); /* sutil sombra */
 }
 
+/* estilo sobre nosotros*/
+.hero{
+    display:flex;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.hero-content{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-text{
+    width:50% ;
+    text-align: left;
+}
+
+.hero-image {
+    width: 50%;
+    min-width: 200px;
+}
+
+.hero-text h1{
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-style:bold ;
+    color:  #ff5722;
+    font-size: 55px;
+}
+.hero-text p{
+    font-family:'Quicksand', sans-serif ;
+    font-size: 15px;
+    text-align: justify;
+    align-items: center;
+}
+
+.hero-image img{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 
