@@ -29,4 +29,213 @@ body {
     box-shadow: 2px 2px 1px rgba(0,0,0,0.1); /* sutil sombra */
 }
 
+/* Example customization for paragraph inside #comercializacion */
 
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Adjust height to auto for responsiveness */
+    object-fit: cover;
+}
+
+/* Remove flex styles that interfere with Bootstrap carousel */
+#carouselExampleIndicators {
+    display: block !important;
+    flex-wrap: wrap !important;
+    padding-bottom: 20px;
+}
+
+#promos .text-left {
+    font-family: Arial, sans-serif;
+    color: gray;
+    font-weight:normal;
+    margin-top:20px;
+    margin-bottom: 30px;
+
+}
+
+/* Customize "Añadir al carrito" buttons inside #promos */
+#promos .btn-primary {
+    background-color: #ff5722; /* Custom orange background */
+    border-color: #ff5722;
+    color: white;
+    display: block;
+    margin: 0 auto; /* Center align the button */
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#promos .btn-primary:hover {
+    background-color: #bb3309; /* Darker orange on hover */
+    border-color: #be3106;
+    color: white;
+}
+
+#titulo.text-center{
+    color:#ff5722;
+    font-family: Arial, sans-serif;
+    font-weight:normal;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+/* Style div#titulo with rounded orange border and padding */
+#titulo {
+    border: 2px solid #ff5722;
+    border-radius: 50px 0px;
+    padding: 15px 20px;
+    background-color: #ff5722;
+    margin-bottom: 20px;
+}
+
+/* Style h2 inside div#titulo with white bold text */
+#titulo h2 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.card-body{
+    text-align: justify;
+}
+
+
+/* Center images inside cards in #como_comprar */
+#como_comprar .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+.paso4{
+   margin:20px;
+}
+
+#mp .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+#mp .card-title{
+    text-align: center;
+}
+
+#titulo h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+#subtitulo h2{
+    color:#ff5722;
+}
+
+#subtitulo p{
+    text-align: justify;
+    color: rgb(61, 60, 60);
+    font-weight:normal;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+#contacto .card-header {
+    background-color:#f57723; 
+    color: #ffffff; 
+    border-radius: 50px 0px;
+}
+#contacto .btn-primary{
+    background-color: #ff5722; /* Custom orange background */
+    border-color: #ff5722;
+    color: white;
+    display: block;
+    margin: 0 auto; /* Center align the button */
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #bb3309; /* Darker orange on hover */
+    border-color: #be3106;
+    color: white;
+}
+
+#medios_de_contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    }
+    
+    #medios_de_contacto .card {
+    text-align: center;
+    flex: 0 1 300px; 
+    }
+    
+    #medios_de_contacto .card img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100%;
+    height: auto;
+    }
+
+    .hero{
+        display:flex;
+        justify-content: center;
+        padding: 50px 20px;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .hero-content{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .hero-text{
+        width:50% ;
+        text-align: left;
+    }
+    
+    .hero-image {
+        width: 50%;
+        min-width: 200px;
+    }
+    
+    .hero-text h1{
+        font-family: "Quicksand", sans-serif;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-style:bold ;
+        color:  #ff5722;
+        font-size: 55px;
+    }
+    .hero-text p{
+        font-family:'Quicksand', sans-serif ;
+        font-size: 15px;
+        text-align: justify;
+        align-items: center;
+    }
+    
+    .hero-image img{
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
