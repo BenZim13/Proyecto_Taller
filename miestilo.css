@@ -1,80 +1,212 @@
-/* Estilo general del cuerpo */
-body {
-    font-family: Arial, sans-serif; /* Fuente sencilla */
-    margin: 0;
-    padding-top: 56px;
-
-}
 .section {
-    padding: 60px 0;
-}
-/* Contenedor de la cabecera */
-/* CABECERA: Asegura que la cabecera tenga el fondo completo */
-.header .navbar{
- /* centra los botones */
-    background-color: whitesmoke !important; /* beige completo */
+    padding: 70px 0;
 }
 
-
-/* Estilo para cada botón de navegación */
-.bloque {
-    background-color: white; /* fondo blanco */
-    border: 1px solid gray; /* borde gris grueso */
-    padding: 10px 20px;
-    margin: 10px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 8px;
-    color: #555; /* gris suave para el texto */
-    box-shadow: 2px 2px 1px rgba(0,0,0,0.1); /* sutil sombra */
+body {
+    font-family: Arial, sans-serif; 
+    padding-top: 80px;
+    margin: 0;
+    background-color: #E6D7B9 !important;
 }
 
-/* estilo sobre nosotros*/
-.hero{
-    display:flex;
-    justify-content: center;
-    padding: 50px 20px;
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
-    text-align: center;
+.footer {
+    color: black;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold !important;
+    background-color: black;
 }
 
-.hero-content{
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
+.cabec {
+    background-color: #F4A426;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif !important;
+    color: black !important;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.offcanvas-header .offcanvas-title,
+.offcanvas-title,
+.offcanvas-body .navbar-nav .nav-link {
+    color: black !important;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white !important;
+}
+
+.offcanvas {
+    background-color: #F4A426 !important;
+    color: white !important;
+}
+
+.offcanvas-header {
+    color: black !important;
+    border-bottom: 1px solid white;
+}
+
+.offcanvas-body .navbar-nav .nav-link:hover {
+    color: #F4A426 !important;
+}
+
+.carousel-item img {
     width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.hero-text{
-    width:50% ;
-    text-align: left;
+#carouselExampleIndicators {
+    display: block !important;
+    flex-wrap: wrap !important;
+    padding-bottom: 20px;
 }
 
-.hero-image {
-    width: 50%;
-    min-width: 200px;
+#promos .text-left {
+    font-family: Arial, sans-serif;
+    color: gray;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.hero-text h1{
+#promos .btn-primary,
+#contacto .btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#promos .btn-primary:hover,
+#contacto .btn-primary:hover {
+    background-color: #bb3309;
+    border-color: #be3106;
+    color: white;
+}
+
+#titulo.text-center {
+    color: #ff5722;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#titulo {
+    border: 2px solid #ff5722;
+    border-radius: 50px 0px;
+    padding: 15px 20px;
+    background-color: #ff5722;
+    margin-bottom: 20px;
+}
+
+#titulo h2,
+#titulo h1 {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-body {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+}
+
+#como_comprar .card-img-top,
+#mp .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+#mp .card-title {
+    text-align: center;
+}
+
+#subtitulo h2 {
+    color: #ff5722;
+}
+
+#subtitulo p {
+    text-align: justify;
+    color: rgb(61, 60, 60);
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#contacto .card-header {
+    background-color: #ff5722;
+    color: #ffffff;
+    border-radius: 50px 0px;
+}
+
+#medios_de_contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#medios_de_contacto .card {
+    text-align: center;
+    flex: 0 1 300px;
+}
+
+#medios_de_contacto .card img {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* HERO section actualizado */
+.hero {
+    padding: 50px 20px;
+    background-color: #E6D7B9; /* mismo fondo del body */
+    color: rgb(0, 0, 0);
+}
+
+.hero-text h1 {
     font-family: "Quicksand", sans-serif;
     margin-bottom: 20px;
     font-weight: bolder;
-    font-style:bold ;
-    color:  #ff5722;
+    color: #ff5722;
     font-size: 55px;
 }
-.hero-text p{
-    font-family:'Quicksand', sans-serif ;
+
+.hero-text p {
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     text-align: justify;
-    align-items: center;
 }
 
-.hero-image img{
-    align-items: center;
+.hero-image img {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
-
